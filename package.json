@@ -1,6 +1,6 @@
 {
   "name": "@codecola/lint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Standards and linting rules for CodeCola projects",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
     "url": "https://github.com/CodeColaLLC/lint/issues"
   },
   "homepage": "https://github.com/CodeColaLLC/lint#readme",
-  "devDependencies": {
+  "dependencies": {
     "babel-eslint": "^7.1.0",
     "eslint-plugin-babel": "^3.3.0",
     "eslint-plugin-filenames-suffix": "^1.2.2",
