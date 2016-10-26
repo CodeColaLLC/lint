@@ -134,7 +134,7 @@
 		"no-path-concat": "error",
 		"block-spacing": ["error", "always"],
 		"brace-style": ["error", "1tbs"],
-		"camelcase": ["error", "always"],
+		"camelcase": ["error", {"properties": "always"}],
 		"comma-dangle": ["error", "never"],
 		"comma-spacing": "error",
 		"comma-style": ["error", "last"],
@@ -147,8 +147,6 @@
 			"tab",
 			{
 				"SwitchCase": 1,
-				"VariableDeclarator": 1,
-				"OuterIIFEBody": 1,
 				"MemberExpression": 1,
 				"FunctionDeclaration": {"parameters": 1, "body": 1},
 				"FunctionExpression": {"parameters": 1, "body": 1}
