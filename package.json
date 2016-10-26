@@ -1,0 +1,25 @@
+{
+  "name": "@codecola/lint",
+  "version": "1.0.0",
+  "description": "Standards and linting rules for CodeCola projects",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeColaLLC/lint.git"
+  },
+  "author": "CodeCola <dev@codecola.io> (https://codecola.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeColaLLC/lint/issues"
+  },
+  "homepage": "https://github.com/CodeColaLLC/lint#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-filenames-suffix": "^1.2.2",
+    "eslint-plugin-mocha": "^4.7.0",
+    "eslint-plugin-react": "^6.4.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.8.1"
+  }
+}
