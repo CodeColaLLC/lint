@@ -1,6 +1,6 @@
 {
   "name": "@codecola/lint",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Standards and linting rules for CodeCola projects",
   "repository": {
     "type": "git",

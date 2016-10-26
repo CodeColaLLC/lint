@@ -13,6 +13,7 @@
 	"env": {
 		"browser": true,
 		"node": true,
+		"es6": true,
 		"commonjs": true,
 		"mocha": true
 	},
@@ -157,12 +158,11 @@
 		"key-spacing": "error",
 		"keyword-spacing": "error",
 		"linebreak-style": "error",
-		"lines-around-comment": "error",
 		"max-depth": "warn",
 		"max-len": [
 			"error",
 			{
-				"code": 100,
+				"code": 120,
 				"tabWidth": 2,
 				"ignoreComments": false,
 				"ignoreUrls": true,
@@ -175,7 +175,6 @@
 		"max-params": ["warn", {"max": 5}],
 		"max-statements-per-line": ["error", {"max": 1}],
 		"max-statements": ["warn", {"max": 20}],
-		"multiline-ternary": "error",
 		"new-cap": ["error", {"capIsNew": false}],
 		"new-parens": "error",
 		"newline-per-chained-call": ["error", {"ignoreChainWithDepth": 3}],

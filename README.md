@@ -28,11 +28,11 @@ Babel.
    ```json
    {
      "scripts": {
-       "lint": "eslint lib"
+       "lint": "eslint lib --ext .js,.jsx"
      }
    }
    ```
- 
+
  1. Whenever you want to lint your project, invoke the lint script.
  
     ```sh
