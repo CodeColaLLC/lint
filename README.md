@@ -33,9 +33,9 @@ Babel.
    }
    ```
 
- 1. Whenever you want to lint your project, invoke the lint script.
+1. Whenever you want to lint your project, invoke the lint script.
  
-    ```sh
-    npm run lint
-    ```
+   ```sh
+   npm run lint
+   ```
 
