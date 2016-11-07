@@ -17,11 +17,9 @@ Babel.
     npm install --save-dev eslint @codecola/lint
     ```
 
-1. Create an ESLint configuration file in the root of your project and have it extend the CodeCola lint configuration.
+    This will automatically create a `.eslintrc.json` file in the root of your repository.
 
-    ```sh
-    echo '{"extends": "./node_modules/@codecola/lint/lib/.eslintrc.json"}' > .eslintrc.json
-    ```
+    It also automatically adds a `lint` script to your `package.json`.
 
 1. Add a lint script to your `package.json` that points to the directory containing files to lint.
 
