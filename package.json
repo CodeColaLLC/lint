@@ -3,7 +3,7 @@
   "version": "1.3.3",
   "description": "Standards and linting rules for CodeCola projects",
   "scripts": {
-    "postinstall": "node lib/postinstall.js"
+    "postinstall": "cp lib/eslintrc.json ../../../.eslintrc.json"
   },
   "repository": {
     "type": "git",

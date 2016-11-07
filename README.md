@@ -19,8 +19,6 @@ Babel.
 
     This will automatically create a `.eslintrc.json` file in the root of your repository.
 
-    It also automatically adds a `lint` script to your `package.json`.
-
 1. Add a lint script to your `package.json` that points to the directory containing files to lint.
 
    ```json
