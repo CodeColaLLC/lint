@@ -1,6 +1,6 @@
 {
   "name": "@codecola/lint",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Standards and linting rules for CodeCola projects",
   "scripts": {
     "postinstall": "cp -n lib/extends.json ../../../.eslintrc.json || true"
